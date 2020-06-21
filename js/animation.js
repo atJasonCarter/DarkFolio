@@ -43,33 +43,33 @@ t1.add({
 
 // begin Grain
 
-// anime({
-//   targets: ".grain",
-//   keyframes: [
-//     {
-//       translateX: function() {
-//         return anime.random(0, 7);
-//       }
-//     }
-//   ],
-//   duration: 600,
-//   easing: "easeOutElastic(1, .8)",
-//   loop: true
-// });
-// anime({
-//   targets: ".grain2",
-//   keyframes: [
-//     {
-//       translateX: function() {
-//         return anime.random(0, -7);
-//       }
-//     }
-//   ],
-//   duration: 600,
-//   delay: 600,
-//   easing: "easeOutElastic(1, .8)",
-//   loop: true
-// });
+anime({
+  targets: ".grain",
+  keyframes: [
+    {
+      translateX: function() {
+        return anime.random(0, 7);
+      }
+    }
+  ],
+  duration: 600,
+  easing: "easeOutElastic(1, .8)",
+  loop: true
+});
+anime({
+  targets: ".grain2",
+  keyframes: [
+    {
+      translateX: function() {
+        return anime.random(0, -7);
+      }
+    }
+  ],
+  duration: 600,
+  delay: 600,
+  easing: "easeOutElastic(1, .8)",
+  loop: true
+});
 
 //  end grain
 

@@ -72,3 +72,9 @@ t1.add({
 // });
 
 //  end grain
+
+// hand hover
+var hand = document.getElementsByClassName("name");
+function hand(opacity) {
+  addEventListener("mouseenter", hand, false);
+}

@@ -132,32 +132,32 @@ h1.name:hover::after {
 
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/InterBlack.ttf") format("truetype");
+  src: url("./fonts/InterBlack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/InterMed.ttf") format("truetype");
+  src: url("./fonts/InterMed.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/InterThin.ttf") format("truetype");
+  src: url("./fonts/InterThin.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Grenze";
-  src: url("../fonts/Grenze-Regular.ttf") format("truetype");
+  src: url("./fonts/Grenze-Regular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Flow";
-  src: url("../fonts/Flow-Circular.otf") format("truetype");
+  src: url("./fonts/Flow-Circular.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
